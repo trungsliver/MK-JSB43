@@ -1,0 +1,30 @@
+body {
+    /* Màu nền */
+    background-color: lightblue;
+}
+
+div {
+    /* Viền */
+    border: 10px solid black;
+    /* Căn lề giữa */
+    text-align: center;
+}
+
+h1 {
+    /* Màu chữ */
+    color: rgb(117, 6, 6);
+}
+
+p {
+    /* Font chữ */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Cỡ chữ */
+    font-size: 18px;
+    /* In đậm */
+    font-weight: bold;
+}
+
+img {
+    /* Chiều rộng */
+    width: 250px;
+}
