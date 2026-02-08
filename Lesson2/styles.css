@@ -1,0 +1,100 @@
+ul {
+    /* Ký tự danh sách */
+    list-style: square;
+}
+
+ol {
+    /* Số la mã */
+    list-style:upper-roman;
+    /* Chữ viết hoa */
+    list-style: upper-latin;
+    /* Chữ viết thường */
+    list-style: lower-latin;
+    /* Số */
+    list-style: decimal;
+}
+
+body {
+    /* Màu nền */
+    background-color: rgb(244, 191, 220);
+}
+
+li{
+    /* font chữ */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Cỡ chữ */
+    font-size: 15px;
+    /* In đậm */
+    font-weight: bold;
+    font-weight: 600;
+    /* Màu chữ */
+    color: rgb(88, 7, 7);
+    /* Kiểu chữ: in nghiêng */
+    font-style: italic;
+    /* Trang trí thêm */
+    text-decoration: dotted underline;
+    /* Chiều cao dòng */
+    line-height: 30px;
+}
+
+a {
+    /* Màu chữ */
+    color: black;
+    /* Bỏ gạch chân */
+    text-decoration: none;
+}
+
+img {
+    /* Chiều cao */
+    height: 250px;
+    /* Chiều rộng */
+    width: 250px;
+
+    /* Viền: kích thước - kiểu - màu */
+    border: 10px solid rgb(0, 0, 0);
+    /* Viền (đầy đủ, không gộp) */
+        /* Kích thước */
+    border-width: 8px;
+        /* Kiểu viền */
+    border-style: dashed;
+        /* Màu viền */
+    border-color: rgb(19, 0, 0);
+    /* Bo góc */
+    border-radius: 20px;
+}
+
+/* Test thuộc tính display */
+span {
+    /* Màu nền */
+    background-color: salmon;
+    /* Chỉnh kích thước */
+    width: 200px;
+    height: 50px;
+    /* Thuộc tính display */
+    display: inline-block;
+}
+
+/* Phần bài tập thực hành */
+div {
+    /* Viền: kích thước - kiểu - màu */
+    border: 5px solid black;
+    /* Bo góc */
+    border-radius: 15px;
+    /* Căn lề giữa */
+    text-align: center;
+    /* Màu nền */
+    background-color: rgb(224, 236, 240);
+    /* chiều ngang */
+    width: 500px;
+}
+
+h3 {
+    /* Màu chữ */
+    color: rgb(7, 49, 88);
+    /* Cỡ chữ */
+    font-size: 24px;
+}
+
+ul {
+    text-align: left;
+}
