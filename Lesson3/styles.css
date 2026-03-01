@@ -1,0 +1,64 @@
+/* CSS theo tên thẻ (tag selector) */
+p {
+    /* in đậm */
+    font-weight: bold;
+}
+
+/* Class selector: .[tên class] */
+.jsb43 {
+    /* Màu chữ */
+    color: blue;
+}
+
+/* ID selector: #[tên id] */
+#minhkhai {
+    /* Màu chữ */
+    color: red;
+}
+
+/* CSS theo con + cháu */
+    /* tất cả các thẻ p nằm trong class d1 */
+.d1 p {
+    /* Màu nền */
+    background-color: yellowgreen;
+}
+
+/* CSS theo con */
+    /* chỉ chọn thẻ p nằm trực tiếp trong d1 */
+.d1 > p {
+    /* Cỡ chữ */
+    font-size: 22px;
+}
+
+img {
+    height: 300px;
+}
+
+/* Box model */
+.box {
+    /* Kích thước */
+    width: 200px;
+    height: 200px;
+
+    /* Đường viền: kích thước - kiểu - màu */
+    border: 1px solid black;
+
+    /* Padding: khoảng cách từ nội dung đến đường viền */
+    padding: 20px;
+
+    /* Margin: khoảng cách từ đường viền đến phần tử khác */
+    margin: 10px;
+}
+
+
+#box1{
+    background-color: lightcoral;
+    /* Box sizing */
+    box-sizing: border-box;
+}
+
+#box2{
+    background-color: lightblue;
+    /* Box sizing */
+    box-sizing: content-box;
+}
