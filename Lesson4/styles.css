@@ -39,3 +39,33 @@
     right: 10px;
 }
 
+img {
+    height: 150px;
+}
+
+/* Flexbox */
+.container {
+    display: flex;
+    background-color: lightpink;
+    /* Hướng sắp xếp phần tử */
+    flex-direction: row;
+    /* Vị trí theo chiều ngang */
+    justify-content: space-around;
+    /* Vị trí theo chiều dọc */
+    align-items: center;
+    /* Xuống dòng khi hết chỗ */
+    flex-wrap: wrap;
+}
+
+/* Responsive */
+#test {
+    background-color: salmon;
+    width: 200px;
+    height: 100px;
+}
+
+@media (max-width: 768px){
+    #test {
+        background-color: green;
+    }
+}
