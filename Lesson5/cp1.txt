@@ -1,0 +1,15 @@
+Quy tắc đặt tên folder cho CP1: [TenLop]_[HoTen]_CP1
+Ví dụ: JSB43_BuiDucTrung_CP1
+
+Các file có trong folder:
+- index.html 
+- style.css
+- tracnghiem.txt (ghi các đáp án trắc nghiệm vào file này)
+
+Link đề bài: shorturl.at/GoCum
+
+1B 2C 3D
+
+Trừ điểm
+Khiêm: -1
+Trí -1
