@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 6</title>
+    <!-- Liên kết css -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Liên kết css Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://cdn.vectorstock.com/i/500p/09/80/online-shopping-laptop-banner-vector-17230980.jpg"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/004/299/835/small/online-shopping-on-phone-buy-sell-business-digital-web-banner-application-money-advertising-payment-ecommerce-illustration-search-free-vector.jpg"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://static.vecteezy.com/system/resources/previews/006/633/040/non_2x/online-shopping-spring-on-phone-flower-pink-big-sale-banner-marketing-poster-fashion-vector.jpg"
+                    class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Cards container -->
+    <div class="cards-container">
+        <!-- Card 1 -->
+        <div class="card" style="width: 18rem;">
+            <img src="https://baron.vn/wp-content/uploads/2024/03/sofa-vang-luoi-dep-1.jpg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Sofa lười</h5>
+                <p class="card-text">Thương hiệu: Nội Thất Ba Ròn</p>
+                <a href="#" class="btn btn-primary">Mua ngay</a>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card" style="width: 18rem;">
+            <img src="https://baron.vn/wp-content/uploads/2024/03/sofa-vang-luoi-dep-1.jpg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Sofa lười</h5>
+                <p class="card-text">Thương hiệu: Nội Thất Ba Ròn</p>
+                <a href="#" class="btn btn-primary">Mua ngay</a>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card" style="width: 18rem;">
+            <img src="https://baron.vn/wp-content/uploads/2024/03/sofa-vang-luoi-dep-1.jpg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Sofa lười</h5>
+                <p class="card-text">Thương hiệu: Nội Thất Ba Ròn</p>
+                <a href="#" class="btn btn-primary">Mua ngay</a>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card" style="width: 18rem;">
+            <img src="https://baron.vn/wp-content/uploads/2024/03/sofa-vang-luoi-dep-1.jpg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Sofa lười</h5>
+                <p class="card-text">Thương hiệu: Nội Thất Ba Ròn</p>
+                <a href="#" class="btn btn-primary">Mua ngay</a>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="card" style="width: 18rem;">
+            <img src="https://baron.vn/wp-content/uploads/2024/03/sofa-vang-luoi-dep-1.jpg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Sofa lười</h5>
+                <p class="card-text">Thương hiệu: Nội Thất Ba Ròn</p>
+                <a href="#" class="btn btn-primary">Mua ngay</a>
+            </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="card" style="width: 18rem;">
+            <img src="https://baron.vn/wp-content/uploads/2024/03/sofa-vang-luoi-dep-1.jpg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Sofa lười</h5>
+                <p class="card-text">Thương hiệu: Nội Thất Ba Ròn</p>
+                <a href="#" class="btn btn-primary">Mua ngay</a>
+            </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="card" style="width: 18rem;">
+            <img src="https://baron.vn/wp-content/uploads/2024/03/sofa-vang-luoi-dep-1.jpg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Sofa lười</h5>
+                <p class="card-text">Thương hiệu: Nội Thất Ba Ròn</p>
+                <a href="#" class="btn btn-primary">Mua ngay</a>
+            </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="card" style="width: 18rem;">
+            <img src="https://baron.vn/wp-content/uploads/2024/03/sofa-vang-luoi-dep-1.jpg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Sofa lười</h5>
+                <p class="card-text">Thương hiệu: Nội Thất Ba Ròn</p>
+                <a href="#" class="btn btn-primary">Mua ngay</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+
+                <!-- Logo & giới thiệu -->
+                <div class="col-md-4 mb-4">
+                    <h4 class="footer-logo">LUX FURNITURE</h4>
+                    <p>
+                        Chuyên cung cấp nội thất cao cấp, thiết kế hiện đại,
+                        mang lại không gian sống đẳng cấp và sang trọng.
+                    </p>
+                </div>
+
+                <!-- Liên kết -->
+                <div class="col-md-2 mb-4">
+                    <h5>Danh mục</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Sofa</a></li>
+                        <li><a href="#">Bàn ghế</a></li>
+                        <li><a href="#">Giường ngủ</a></li>
+                        <li><a href="#">Tủ kệ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Hỗ trợ -->
+                <div class="col-md-3 mb-4">
+                    <h5>Hỗ trợ</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Chính sách bảo hành</a></li>
+                        <li><a href="#">Giao hàng</a></li>
+                        <li><a href="#">Thanh toán</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Liên hệ -->
+                <div class="col-md-3 mb-4">
+                    <h5>Liên hệ</h5>
+                    <p>Email: contact@luxfurniture.com</p>
+                    <p>Hotline: 0123 456 789</p>
+                    <div class="social-icons">
+                        <a href="#">FB</a>
+                        <a href="#">IG</a>
+                        <a href="#">YT</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="text-center">
+                <p class="mb-0">© 2026 LUX FURNITURE. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

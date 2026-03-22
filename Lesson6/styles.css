@@ -1,0 +1,80 @@
+.cards-container {
+    display: flex;
+    /* Cho phép xuống dòng */
+    flex-wrap: wrap;
+    /* Hướng dắp xếp */
+    flex-direction: row;
+    /* Căn ngang */
+    justify-content: space-evenly;
+}
+
+.cards-container .card {
+    width: 21% !important;
+    min-width: 250px !important;
+}
+
+/* ========================= FOOTER =========================== */
+/* Tổng thể footer */
+.footer {
+    background-color: #111;
+    color: #ccc;
+    padding: 60px 0 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Logo */
+.footer-logo {
+    color: #d4af37; /* gold */
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Tiêu đề */
+.footer h5 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+/* Link */
+.footer a {
+    color: #aaa;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+
+.footer a:hover {
+    color: #d4af37;
+}
+
+/* Icon mạng xã hội */
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 8px 12px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    background-color: #d4af37;
+    color: #000;
+}
+
+/* Đường kẻ */
+.footer hr {
+    border-color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+}
